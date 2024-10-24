@@ -17,7 +17,8 @@ Allows changing your gamepad button layout.
 
 ## Where to Download
 
-In addition to being available on [Nexus Mods](https://www.nexusmods.com/travellersrest), the mod is also available for download directly from the [source code repository](https://github.com/T3nak/travellers-gamepad/tree/main/compiled-releases).
+- [Nexus Mods](https://www.nexusmods.com/travellersrest)
+- [Compiled releases](https://github.com/T3nak/Travellers-Rest-Travellers-Gamepad/releases)
 
 ## How to Install
 
