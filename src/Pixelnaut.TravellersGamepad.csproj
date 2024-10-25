@@ -35,9 +35,7 @@
     </Reference>
   </ItemGroup>
 
-  <!--
-		This will try to copy the resulting DLLs from builds directly into your game directory, as long as we're not in CI
-	-->
+  <!-- This will try to copy the resulting DLLs from builds directly into your game directory, as long as we're not in CI -->
   <Target Name="PostBuild" AfterTargets="PostBuildEvent" Condition="'$(CI)' != 'true'">
     <Exec Command="copy /Y &quot;$(TargetDir)$(AssemblyName).dll&quot; &quot;$(ModsLocation)\$(AssemblyName).dll&quot;" />
   </Target>
